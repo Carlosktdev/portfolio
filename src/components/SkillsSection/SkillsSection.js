@@ -19,26 +19,24 @@ const SkillsSection = () => {
     { skill: "Tailwind", value: "50%" },
   ];
   return (
-    <section className="container" id="skills">
-      <div className="skillContainer">
-        <h1>What My Programing skills include?</h1>
-        <h4>
-          I have extensive mid-senior level knowledge of various web programming
-          technologies, both front and back end. Especially in MERN stack and
-          NEXT.js, besides this I also have medium knowledge about mobile
-          development with react-native and various third party libraries. In
-          addition to this, I also have knowledge in libraries such as:
-          bootstrap, tailwind, material ui design, and much more.
-        </h4>
-        <div className="slidersContainer">
-          {skills.map((item, index) => {
-            return (
-              <div className="slides" key={index}>
-                <Sliders lenguage={item.skill} value={item.value} />
-              </div>
-            );
-          })}
-        </div>
+    <section className="container centeredTexts" id="skills">
+      <h1>What My Programing skills include?</h1>
+      <h4>
+        I have extensive mid-senior level knowledge of various web programming
+        technologies, both front and back end. Especially in MERN stack and
+        NEXT.js, besides this I also have medium knowledge about mobile
+        development with react-native and various third party libraries. In
+        addition to this, I also have knowledge in libraries such as: bootstrap,
+        tailwind, material ui design, and much more.
+      </h4>
+      <div className="slidersContainer">
+        {skills.map((item, index) => {
+          return (
+            <div className="slides" key={index}>
+              <Sliders lenguage={item.skill} value={item.value} />
+            </div>
+          );
+        })}
       </div>
     </section>
   );

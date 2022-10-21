@@ -1,0 +1,78 @@
+.centered {
+  text-align: center;
+}
+
+.mainProjectContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.projectContainer {
+  position: relative;
+  width: 33%;
+  height: 250px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.projectContainer h1 {
+  visibility: hidden;
+  transition: 0s;
+}
+
+.projectContainer:hover {
+  background-color: #395b64e7;
+  transition: 0.5s;
+}
+
+.projectContainer:hover h1 {
+  visibility: visible;
+  transition: 0s;
+}
+
+.img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.learnButton {
+  border: 2px solid white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: -50px;
+}
+
+.learnButton:hover {
+  border: 2px solid white;
+  background-color: var(--BG_Dark);
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.projectContainer:hover .learnButton {
+  margin-bottom: 0px;
+  transition: 0.5s;
+}
+
+.projectName {
+  margin-top: -50px;
+  transition: 0.5s;
+}
+
+.projectContainer:hover .projectName {
+  margin-top: 0px;
+  transition: 0.5s;
+}

@@ -10,7 +10,7 @@ const NavBar = () => {
     { link: "RESUME", to: "#" },
   ];
   return (
-    <section className="navBarBG">
+    <div className="navBarBG">
       <div className="linksContainer">
         {links.map((link, index) => {
           return (
@@ -20,7 +20,7 @@ const NavBar = () => {
           );
         })}
       </div>
-    </section>
+    </div>
   );
 };
 

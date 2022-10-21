@@ -11,7 +11,7 @@
   border-width: 1px;
   border-color: var(--Primary_Light);
   border-style: solid;
-  transition: 100ms;
+  transition: 300ms;
   padding: 20px 10px;
   filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.541));
 }
@@ -19,5 +19,5 @@
 .commentContainer:hover {
   width: 255px;
   height: 305px;
-  transition: 100ms;
+  transition: 300ms;
 }

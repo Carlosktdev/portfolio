@@ -20,3 +20,10 @@ body {
   padding-right: 20%;
   height: 100vh;
 }
+
+section {
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
