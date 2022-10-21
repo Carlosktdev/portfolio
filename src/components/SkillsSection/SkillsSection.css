@@ -1,0 +1,20 @@
+.slidersContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.slides {
+  width: 50%;
+  padding-right: 25px;
+  margin-top: 8px;
+}
+
+.skillContainer {
+  text-align: center;
+  padding: 120px 0px;
+}
+
+.skillContainer h4 {
+  margin: 30px 0px;
+}
